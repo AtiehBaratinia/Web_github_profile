@@ -1,0 +1,104 @@
+* {
+    font-size: 16px;
+}
+/*setting background and aligning its contents*/
+body {
+    background-image: url("images/Octocat.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: min-content;
+}
+/*for displaying as block*/
+.dis-block{
+    display: block;
+}
+/*for displaying as inline-block*/
+.dis-inline-block{
+    display: inline-block;
+}
+/*for displaying as flex*/
+.dis-flex{
+    display: flex;
+}
+/*for setting black border around that object*/
+.black-border{
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+/*setting the margin automatically*/
+.margin-auto{
+    margin: 10px auto;
+}
+.padding-20{
+    padding: 20px;
+}
+.padding-10{
+    padding: 10px;
+}
+/* for setting the object in the center of its parent*/
+.center-in-parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* the properties of object in 'form'*/
+.content-form{
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+}
+/* the properties of bio and repos*/
+.content-bio{
+    left: 20px; 
+    flex-grow: 1;
+    margin-top: 20px;
+    max-width: inherit;
+    max-height: max-content;
+    overflow: auto;
+    display: block;
+}
+#div-all-content {
+    background-color: rgb(196, 226, 238);
+    padding: 40px;
+    opacity: 0.8;
+    display: flex;
+}
+#rec-user{
+    width: 420px;
+    height: 560px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#img-user{
+    max-width:150px ;
+    max-height: 150px;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+}
+#rec-form{
+    width: 210px;
+    height: 560px;
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+    margin:10px;
+
+}
+#inf-user{
+    width: 100%;
+}
+
+#btn-submit{
+    background-color: rgb(72, 145, 204);
+}
